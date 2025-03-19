@@ -17,3 +17,28 @@ This project involves creating three programs: a **logger**, an **encryption pro
 - Implementing history without storing passwords.
 
 Next steps: Research Vigenère cipher, prototype each program, integrate, and test thoroughly.
+
+# Devlog Entry - [03-18-2025, 7:10PM] 
+### **Thoughts So Far:** 
+The project involves three main components: a logger, an encryption program, and a driver program. The goal is to create a system where the driver program interacts with the user, encrypts/decrypts strings using the Vigenère cipher, and logs all actions.
+
+I’ve been thinking about how to structure the system:
+- The logger needs to handle log messages with timestamps and write them to a file. It should run continuously until it receives the "QUIT" command.
+- The encryption program needs to implement the Vigenère cipher, handle commands like PASS, ENCRYPT, and DECRYPT, and respond with RESULT or ERROR.
+- The driver program will act as the user interface, managing communication between the user, the logger, and the encryption program using pipes.
+
+## **Plan for This Session:**
+
+### **Goal:** 
+Start implementing the logger program as described in the project requirements.
+
+### **Steps:**
+- Create a Python script for the logger.
+- Implement functionality to accept log messages via standard input.
+- Write log entries to a file in the format YYYY-MM-DD HH:MM [ACTION] MESSAGE.
+- Handle the "QUIT" command to stop logging.
+
+### **Implementation Steps:**
+- Add a list in mem.py to represent multiple memory locations.
+- Add new commands in mem.py to handle load and store.
+- Update cpu.py to send these new commands and handle their responses.
