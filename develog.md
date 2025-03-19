@@ -78,3 +78,18 @@ Implement the encryption program with the Vigenère cipher and test it with basi
 - Add support for the PASS, ENCRYPT, DECRYPT, and QUIT commands.
 - Handle responses (RESULT or ERROR) based on the success or failure of each command.
 - Test the program by sending commands and verifying the output.
+
+# Devlog Entry - [03-19-2025, 1:30AM] 
+### **Accomplishments:** 
+- Successfully implemented the encryption program with the Vigenère cipher.
+- Added support for PASS, ENCRYPT, DECRYPT, and QUIT commands.
+- Tested the program with valid and invalid inputs, and it works as expected.
+
+### **Problems Encountered:** 
+- Initially, there were issues with handling the passkey and invalid input, but these were resolved.
+- The program could be more robust with additional error handling for edge cases.
+
+### **Goals for next session:**
+- Implement the Driver Program.
+- Integrate with encryption side with driver. 
+
