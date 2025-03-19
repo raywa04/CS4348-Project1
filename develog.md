@@ -57,3 +57,24 @@ Start implementing the logger program as described in the project requirements.
 ### **Goals for next session:**
 - Implement encryption part of the project. 
 
+# Devlog Entry - [03-18-2025, 10:00PM] 
+### **Thoughts So Far:** 
+Now that the logger program is complete, the next step is to implement the encryption program. This program will handle the Vigenère cipher for encrypting and decrypting strings.
+The encryption program needs to support the following commands:
+- PASS: Set the passkey for encryption/decryption.
+- ENCRYPT: Encrypt a string using the current passkey.
+- DECRYPT: Decrypt a string using the current passkey.
+- QUIT: Exit the program.
+The program should respond with RESULT for successful commands and ERROR for failures (e.g., no passkey set).
+I’m planning to implement the Vigenère cipher in Python, ensuring it only works with uppercase letters and handles errors gracefully.
+
+## **Plan for This Session:**
+
+### **Goal:** 
+Implement the encryption program with the Vigenère cipher and test it with basic commands.
+
+### **Steps:**
+- Implement the Vigenère cipher algorithm.
+- Add support for the PASS, ENCRYPT, DECRYPT, and QUIT commands.
+- Handle responses (RESULT or ERROR) based on the success or failure of each command.
+- Test the program by sending commands and verifying the output.
