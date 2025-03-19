@@ -18,7 +18,7 @@ This project involves creating three programs: a **logger**, an **encryption pro
 
 Next steps: Research Vigenère cipher, prototype each program, integrate, and test thoroughly.
 
-# Devlog Entry - [03-18-2025, 7:10PM] 
+# Devlog Entry - [03-18-2025, 7:10PM] (Session Begins)
 ### **Thoughts So Far:** 
 The project involves three main components: a logger, an encryption program, and a driver program. The goal is to create a system where the driver program interacts with the user, encrypts/decrypts strings using the Vigenère cipher, and logs all actions.
 
@@ -38,7 +38,7 @@ Start implementing the logger program as described in the project requirements.
 - Write log entries to a file in the format YYYY-MM-DD HH:MM [ACTION] MESSAGE.
 - Handle the "QUIT" command to stop logging.
 
-# Devlog Entry - [03-18-2025, 9:00PM] 
+# Devlog Entry - [03-18-2025, 9:00PM] (Session Ends)
 ### **Accomplishments:** 
 - I accomplished my goal for this session.
 - Successfully implemented the logger program in Python.
@@ -57,7 +57,7 @@ Start implementing the logger program as described in the project requirements.
 ### **Goals for next session:**
 - Implement encryption part of the project. 
 
-# Devlog Entry - [03-18-2025, 10:00PM] 
+# Devlog Entry - [03-18-2025, 10:00PM] (Session Begins)
 ### **Thoughts So Far:** 
 Now that the logger program is complete, the next step is to implement the encryption program. This program will handle the Vigenère cipher for encrypting and decrypting strings.
 The encryption program needs to support the following commands:
@@ -79,7 +79,7 @@ Implement the encryption program with the Vigenère cipher and test it with basi
 - Handle responses (RESULT or ERROR) based on the success or failure of each command.
 - Test the program by sending commands and verifying the output.
 
-# Devlog Entry - [03-19-2025, 1:30AM] 
+# Devlog Entry - [03-19-2025, 1:30AM] (Session Ends)
 ### **Accomplishments:** 
 - Successfully implemented the encryption program with the Vigenère cipher.
 - Added support for PASS, ENCRYPT, DECRYPT, and QUIT commands.
