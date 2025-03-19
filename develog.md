@@ -38,3 +38,22 @@ Start implementing the logger program as described in the project requirements.
 - Write log entries to a file in the format YYYY-MM-DD HH:MM [ACTION] MESSAGE.
 - Handle the "QUIT" command to stop logging.
 
+# Devlog Entry - [03-18-2025, 9:00PM] 
+### **Accomplishments:** 
+- I accomplished my goal for this session.
+- Successfully implemented the logger program in Python.
+- The logger accepts a log file name as a command-line argument and writes log entries in the format YYYY-MM-DD HH:MM [ACTION] MESSAGE.
+- Tested the logger by manually entering log messages and verified that the log file (log.txt) was created and updated correctly.
+- Also tested automated input by redirecting input from a file (input.txt), which worked as expected.
+
+### **Problems Encountered:** 
+- Initially, I wasn’t sure how to handle the "QUIT" command to stop the logger. I resolved this by checking for "QUIT" in the input loop and breaking out of the loop when it’s received.
+- I also had to ensure that the log file was flushed after each write to avoid delays in writing to the file. This was fixed by calling f.flush() after each log entry.
+
+### **Additional Accomplishments:**
+- Added error handling for cases where the log message doesn’t contain both an action and a message (e.g., if the user enters an empty line or only one word).
+- Tested edge cases, such as empty log messages and very long log messages, to ensure the logger handles them gracefully.
+
+### **Goals for next session:**
+- Implement encryption part of the project. 
+
