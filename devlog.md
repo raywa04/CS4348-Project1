@@ -154,4 +154,7 @@ Work on the README.md file for the project.
 - None
 
 ### **Goals for next session:**
-- Make sure everything is good to go for submission, and then submit. 
+- Make sure everything is good to go for submission, and then submit.
+
+# Devlog Entry - [03-20-2025, 1:35AM]
+### Submitted Project
