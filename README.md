@@ -4,7 +4,7 @@
 This project implements a **Vigenère cipher-based encryption system** using Python. It consists of three main components:
 
 1. **Logger (`logger.py`)** – Logs system activities with timestamps.
-2. **Encryption Program (`encrypt.py`)** – Encrypts and decrypts messages using the **Vigenère cipher**.
+2. **Encryption Program (`encryption.py`)** – Encrypts and decrypts messages using the **Vigenère cipher**.
 3. **Driver (`driver.py`)** – Manages user interaction, spawns subprocesses, and facilitates communication between the components.
 
 ---
@@ -13,7 +13,6 @@ This project implements a **Vigenère cipher-based encryption system** using Pyt
 - **`driver.py`** - Main entry point, responsible for managing subprocesses and handling user commands.
 - **`encrypt.py`** - Performs encryption and decryption using the Vigenère cipher.
 - **`logger.py`** - Records all user actions and system events to a log file.
-- **`logfile.txt`** - Stores all logged events.
 - **`README.md`** - Documentation for the project.
 
 ---
@@ -21,7 +20,7 @@ This project implements a **Vigenère cipher-based encryption system** using Pyt
 ## **How to Run the Program**
 To execute the program, run the following command:
 ```sh
-python3 driver.py logfile.txt
+python3 driver.py logger.txt
 ```
 This starts the **driver program**, which initializes the **logger** and **encryption** processes.
 
@@ -36,8 +35,8 @@ This starts the **driver program**, which initializes the **logger** and **encry
 ---
 
 ## **Notes for the TA Before Grading**
-- Ensure **Python 3.10+** is used (for `match-case` support).
-- Logs should be correctly written in `logfile.txt` with timestamps.
+- Ensure **Python 3.10+** is used.
+- Logs should be correctly written in `logger.txt` with timestamps.
 - The encryption/decryption results should match expected outputs.
 
 This implementation follows the project requirements and handles errors efficiently.
