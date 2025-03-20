@@ -117,4 +117,17 @@ Implement the driver program and test its interaction with the logger and encryp
 - Handle commands like password, encrypt, decrypt, history, and quit.
 - Log all actions and results using the logger.
 
+# Devlog Entry - [03-20-2025, 1:00AM] (Session Ends)
+### **Accomplishments:** 
+- I accomplished my goal for this session.
+- Successfully implemented the driver program.
+- The driver can launch the logger and encryption program, communicate with them using pipes, and provide a menu of commands for the user.
+- All actions and results are logged using the logger.
+
+### **Problems Encountered:** 
+- Initially, there were issues with pipes not flushing correctly, but these were resolved.
+- The driver could be more robust with additional error handling for edge cases.
+
+### **Goals for next session:**
+- Create README.md file for the project.
 
