@@ -91,5 +91,30 @@ Implement the encryption program with the Vigenère cipher and test it with basi
 
 ### **Goals for next session:**
 - Implement the Driver Program.
-- Integrate with encryption side with driver. 
+- Integrate with encryption side with driver.
+
+# Devlog Entry - [03-18-2025, 12:10AM] (Session Begins)
+### **Thoughts So Far:** 
+Now that the logger and encryption program are complete, the next step is to implement the driver program. The driver will act as the user interface, allowing users to interact with the encryption program and logger.
+
+The driver program needs to:
+- Launch the logger and encryption program using subprocess.Popen.
+- Use pipes to communicate with both programs.
+- Provide a menu of commands for the user, such as password, encrypt, decrypt, history, and quit.
+- Log all actions and results using the logger.
+
+I’m planning to use Python’s subprocess module to manage the processes and pipes. This will allow the driver to send commands to the encryption program and log messages to the logger.
+
+## **Plan for This Session:**
+
+### **Goal:** 
+Implement the driver program and test its interaction with the logger and encryption program.
+
+### **Steps:**
+- Use subprocess.Popen to start the logger and encryption program.
+- Set up pipes for communication with both programs.
+- Implement a menu system for user interaction.
+- Handle commands like password, encrypt, decrypt, history, and quit.
+- Log all actions and results using the logger.
+
 
