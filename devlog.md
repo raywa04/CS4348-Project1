@@ -131,3 +131,15 @@ Implement the driver program and test its interaction with the logger and encryp
 ### **Goals for next session:**
 - Create README.md file for the project.
 
+# Devlog Entry - [03-18-2025, 12:10AM] (Session Begins)
+### **Thoughts So Far:** 
+Finished the coding section of the project, I've been playing around with it and its been really interesting and fun. Really satsified with being able to code this from scratch.
+
+## **Plan for This Session:**
+
+### **Goal:** 
+Work on the README.md file for the project. 
+
+### **Steps:**
+- Make sure everything is well defined on the README, each file, method, etc.
+- Make sure everything is well clarified on how to run the project for the TA or Professor. 
